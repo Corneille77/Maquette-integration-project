@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="shortcut icon" href="/Images/Logo.png" type="image/x-icon">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <img src="/Images/Logo.png" alt="Logo de l'entreprise">
+        <nav class="menu-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Pizza</a></li>
+                <li><a href="#">Burgers</a></li>
+                <li><a href="#">Salade</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="img-container">
+        <img src="/Images/Image_viande.png" alt="Image de plats">
+        <div class="text-img">
+            <h3>Food app</h3>
+            <h2>Chez Bella</h2>
+            <h2>chaque désir s'aditionne</h2>
+        </div>
+    </div>      
+
+    <form action="#" method="post">
+        <section class="">
+            <h2 class="title-form-c">CONTACT</h2>
+            <fieldset class="container-form-cat">
+                    <div class="form-cat-f">
+                        <div>
+                            <label for="nom">Nom :</label>
+                            <div>
+                                <input type="text" name="nom" id="nom" placeholder="Votre nom" autofocus required>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="tel">Téléphone :</label>
+                            <div>
+                                <input type="number" name="Tel" id="tel" placeholder="Votre numéro de Téléphone" autofocus required>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="adress">Société :</label>
+                            <div>
+                                <input type="text" name="adress" id="adress" placeholder="Le nom de votre Société" autofocus required>
+                            </div>
+                        </div>
+                    </div>
+                <div class="form-cat-f">
+                    <div>
+                        <label for="surname">Prénom :</label>
+                        <div>
+                            <input type="text" name="surname" id="surname" placeholder="Votre prénom" autofocus required>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="mail">Email :</label>
+                        <div>
+                            <input type="email" name="mail" id="mail" placeholder="Votre email" autofocus required>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="mail">Fonction :</label>
+                        <div>
+                            <input type="number" name="number" id="number" placeholder="Cuisinier" autofocus required>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>  
+        </section>
+    </form>
+    <main>
+        <div class="choose-file">
+            <input type="file" id="avatar" name="avatar"
+            <label for="avatar"></label>
+        </div>
+        <div>
+            <div class="g-recaptcha" data-sitekey="6Lc4vCskAAAAAJm642tSrgDwN9KvJlP0TTduiyV8"></div>
+        </div>
+    </main>
+
+    <form action="#" method="post">
+        <fieldset class="msg">
+            <p class="list-derou">
+                <label for="choix">Objet</label>
+                <select name="coca" id="choix">
+                    <option value="choix"></option>
+                    <option value="choix">Remboursement</option>
+                    <option value="choix">Critique</option>
+                </select>
+            </p>
+            <div>
+                <label for="message">Message :</label>
+                <div>
+                    <input type="text" name="message" id="message" placeholder="message" autofocus required>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+    <div class="mapouter">
+        <div class="gmap_canvas">
+            <iframe width="941" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <a href="https://123movies-to.org"></a><br><a href="https://www.embedgooglemap.net"></a>
+        </div>
+    </div>
+    <div class="button-cont">
+        <button class="contain-button">Envoyer</button>
+    </div> 
+</body>
+</html>

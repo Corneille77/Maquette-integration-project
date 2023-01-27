@@ -1,0 +1,438 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    /* General */
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    hr{
+        width: 70%;
+    }
+    /* Header part */
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 40px 60px;
+    }
+
+    nav{
+        width: 50%;
+    }
+
+    .img-container img {
+        width: 100%;
+        display: inline-block;
+        position: relative;
+        padding-bottom: 40px;
+
+    }
+
+    .container-img img{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+/* General */
+    body{
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    hr{
+        width: 70%;
+    }
+    /* Header part */
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 40px 60px;
+    }
+
+    header img{
+        width: 15%;
+    }
+
+    nav{
+        width: 50%;
+    }
+
+    .menu-nav ul{
+        list-style-type: none;
+        display: flex;
+        gap: 60px;
+        font-weight: 600;
+        font-size: 19px;
+    }
+
+    a:hover{
+        color: #fa4a0c;
+    }
+
+    /* Welcome img part */
+    .img-container{
+        display: inline-block;
+        position: relative;
+        padding-bottom: 40px;
+    }
+    .img-container{
+        background-image: url('/Images/Image_viande.png'); 
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .text-img{
+        z-index: 1;
+        position: absolute;
+        text-align: center;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        color: white;
+        width: 70%;
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    /* Cards Part(Pizza-Burger-Salade)*/
+
+    .al{
+        text-align: center;
+        font-size: 44px;
+    }
+    .Container-all-card{
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 95px;
+        margin: 0 auto;
+        gap: 15px;
+    }
+
+    .container-card{
+        border: 3px solid #fa4a0c;
+        width: 33%;
+        
+    }
+    .container-img{
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 15px;
+    }
+    .container-img img{
+        width: 95%;
+        object-fit: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text-description p{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        letter-spacing: 0.1px;
+        padding-left: 30px;
+    }
+
+    .button{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 16px 0;
+        padding-right: 30px;
+    }
+
+    button{
+        border-radius: 30px;
+        box-shadow: 0px 10px 30px;
+        width: 177px;
+        height: 68px;
+        font-size: 24px;
+        background-color: #fa4a0c;
+        color: #fff;
+    }
+
+    .carte:last-child{
+        padding-bottom: 30px;
+    }
+
+    /* Footer */
+    
+    .img-container-footer{
+        display: inline-block;
+        position: relative;
+        padding-bottom: 40px;
+        
+    }
+    .img-container-footer{
+        background-image: url('/Images/Image_donuts.png');
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+    .footer-text h2{
+        z-index: 1;
+        position: absolute;
+        text-align: center;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 30%;
+        color: white;
+        width: 70%;
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    .footer-info{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .Logo-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    /* ****************** Formulaire de commande **************** */
+    /* General */
+    fieldset{
+        border: 0;
+        padding: 0;
+    }
+    input{
+        height: 40px;
+        width: 320px;
+        border-radius: 4px;
+        color: gray;
+    }
+
+    select{
+        width: 320px;
+        height: 45px;
+        border-radius: 4px;
+    }
+
+    .forms-infos{
+        padding: 0 60px;
+        padding-bottom: 40px;
+        padding-left: 70px;
+    }
+
+    .form-cat{
+        display: flex;
+        justify-content: space-around;
+        
+        align-items: center;
+        padding-bottom: 15px;
+    }
+
+    .c-a-c{
+        display: flex;
+        gap: 15px;
+    }
+
+    .form-contain{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .part1-command{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 100px;
+        padding-left: 70px;
+        
+    }
+
+    .list-derou{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .title-comm{
+        display: flex;
+        justify-content: space-between;
+        padding:0 70px;
+    }
+
+    .title-comm :last-child{
+        color: #fa4a0c;
+    }
+
+    /* Boissons / Desserts */
+    .container-b-c input{
+        width: initial;
+    }
+
+
+    .container-a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+    }
+
+    .dessert-boisson{
+        display: flex;
+        justify-content: space-between;
+        padding:0 70px;
+        padding-bottom: 40px;
+    }
+    .frite{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding-left: 70px;
+    }
+    .radio{
+        width: 100%;
+    }
+
+
+    .container-b-c{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+
+    .container-form-cat{
+        display: flex;
+        justify-content: space-around;
+        gap: 80px;
+    }
+    .form-cat-f{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-bottom: 80px;
+    }
+
+    .title-form{
+        padding:0  70px;
+    }
+
+    .button-send{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 16px 0;
+        padding-right: 70px;
+    }
+
+
+
+
+    
+    
+    
+    
+    
+    /* ************************************************Contact****************************************** */
+    .title-form-c{
+        padding-left: 12pc;
+    }
+    .contain-up{
+        border-radius: 4px;
+        box-shadow: 4px;
+        width: 177px;
+        height: 30px;
+        font-size: 24px;
+        background-color: #fa4a0c;
+        color: #fff;
+        text-align: center;
+    }
+    
+    .button-up{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .msg{
+        padding-left: 13pc;       
+        padding-bottom: 60px;
+    }
+    .choose-file {
+        padding-left: 13pc;
+    }
+    
+    .g-recaptcha {
+        padding-left: 13pc;       
+    }
+    
+    
+    #choix {
+        width: 938px;
+    }
+    
+    #message {
+        width: 941px;
+        height: 238px;
+    }
+    
+    .mapouter {
+        position:relative;
+        text-align:right;
+        height:500px;
+        width:941px;
+        padding-left: 13pc;       
+    }
+
+    #gmap_canvas {
+        overflow:hidden;
+        background:none!important;
+        height:500px;
+        width:941px;
+    }
+    .contain-button{
+        border-radius: 30px;
+        box-shadow: 0px 10px 30px;
+        width: 177px;
+        height: 68px;
+        font-size: 24px;
+        background-color: #fa4a0c;
+        color: #fff;
+
+    }
+    .button-cont{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 5pc 0;
+        padding-right: 25pc;
+    }
+}
+
+

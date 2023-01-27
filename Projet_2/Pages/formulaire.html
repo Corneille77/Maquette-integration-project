@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="shortcut icon" href="/Images/Logo.png" type="image/x-icon">
+    <title>Formulaire de Commande</title>
+</head>
+<body>
+    <header>
+        <img src="/Images/Logo.png" alt="Logo de l'entreprise">
+        <nav class="menu-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Pizza</a></li>
+                <li><a href="#">Burgers</a></li>
+                <li><a href="#">Salade</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="img-container">
+        <img src="/Images/Image_viande.png" alt="Image de plats">
+        <div class="text-img">
+            <h3>Food app</h3>
+            <h2>Chez Bella</h2>
+            <h2>chaque désir s'aditionne</h2>
+        </div>
+    </div>      
+
+    <section class="forms-infos">
+        <h2 class="title-form">VOS INFORMATIONS</h2>
+        <form action="#" method="post">
+            <fieldset>
+                <div id="form-container">
+                    <div class="form-cat">
+                        <div class="form-contain">
+                            <label for="nom">Nom :</label>
+                            <div>
+                                <input type="text" name="nom" id="nom" placeholder="Votre nom" autofocus required>
+                            </div>
+                        </div>
+                        <div class="form-contain">
+                            <label for="tel">Téléphone :</label>
+                            <div>
+                                <input type="number" name="Tel" id="tel" placeholder="Votre numéro de Téléphone" autofocus required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-cat">
+                        <div class="form-contain">
+                            <label for="surname">Prénom :</label>
+                            <div>
+                                <input type="text" name="surname" id="surname" placeholder="Votre prénom" autofocus required>
+                            </div>
+                        </div>
+                        <div class="form-contain">
+                            <label for="mail">Email :</label>
+                            <div>
+                                <input type="email" name="mail" id="mail" placeholder="Votre email" autofocus required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    
+    <hr>
+
+    <section class="form-command">
+        <div class="title-comm">
+            <h2 class="title-form">VOTRE COMMANDE</h2>
+            <h2>Pizza 4 fromages</h2>
+        </div>
+        <form action="#" method="post">
+            <fieldset>
+                <div>
+                    <div class="part1-command">
+                        <p class="list-derou">
+                            <label for="ing">Ingredient 1</label>
+                            <select name="ingredient1" id="ingredient1">
+                                <option value="ingredient1">Fromage</option>
+                                <option value="ingredient1">Jambon</option>
+                                <option value="ingredient1">Poulet</option>
+                            </select>
+                        </p>
+                            <div>
+                            <label for="quantity">Quantités</label>
+                            <div>
+                                <input type="number" name="quantity" id="quantity" placeholder="1" autofocus required>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="part1-command">
+                        <p class="list-derou">
+                            <label for="ing">Ingredient 2</label>
+                            <select name="ingredient1" id="ingredient2">
+                                <option value="ingredient2">Jambon</option>
+                                <option value="ingredient2">Fromage</option>
+                                <option value="ingredient2">Poulet</option>
+                            </select>
+                        </p>
+                        <div>
+                            <label for="tel">Quantités</label>
+                            <div>
+                                <input type="number" name="quantity" id="quantity" placeholder="1" autofocus required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="part1-command">
+                        <p class="list-derou">
+                            <label for="ing">Ingredient 3</label>
+                            <select name="ingredient1" id="ingredient3">
+                                <option value="ingredient3">Poulet</option>
+                                <option value="ingredient3">Fromage</option>
+                                <option value="ingredient3">Jambon</option>
+                            </select>
+                        </p>
+                        <div>
+                            <label for="tel">Quantités</label>
+                            <div>
+                                <input type="number" name="quantity" id="quantity" placeholder="1" autofocus required>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="frite">
+                            <div class="container-b-t">
+                                <input class="radio" type="radio" name="supp" checked>
+                            </div>
+                            <label for="supp">Avec frite</label>
+                        </div>
+    
+                        <div class="frite">
+                            <div>
+                                <input class="radio" type="radio" name="supp" checked>
+                            </div>
+                            <label for="supp">Sans frite</label>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="dessert-boisson">
+                    <div>
+                        <h2>Boissons</h2>
+                        <div class="c-a-c">
+                            <div class="container-a">
+                                <div class="container-b-c">
+                                    <input type="checkbox" name="Boissons" checked>
+                                </div>
+                                <label for="Boissons">Coca</label>
+                            </div>
+                            <p class="list-derou">
+                                <label for="coca"></label>
+                                <select name="coca" id="coca">
+                                    <option value="coca">1</option>
+                                    <option value="coca">2</option>
+                                    <option value="coca">3</option>
+                                </select>
+                            </p>
+                        </div>
+                        <div class="c-a-c">
+                            <div class="container-a">
+                                <div class="container-b-c">
+                                    <input type="checkbox" name="Boissons">
+                                </div>
+                                <label for="Boissons">Fanta</label>
+                            </div>
+                            <p class="list-derou">
+                                <label for="coca"></label>
+                                <select name="coca" id="fanta">
+                                    <option value="fanta">1</option>
+                                    <option value="fanta">2</option>
+                                    <option value="fanta">3</option>
+                                </select>
+                            </p>
+                        </div>
+                        <div class="c-a-c">
+                            <div class="container-a">
+                                <div class="container-b-c">
+                                    <input type="checkbox" name="Boissons">
+                                </div>
+                                <label for="Boissons">Fanta</label>
+                            </div>
+                            <p class="list-derou">
+                                <label for="coca"></label>
+                                <select name="sprite" id="sprite">
+                                    <option value="sprite">1</option>
+                                    <option value="sprite">2</option>
+                                    <option value="sprite">3</option>
+                                </select>
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <h2>Dessert</h2>
+                        <div class="c-a-c">
+                            <div class="container-a">
+                                <div class="container-b-c">
+                                    <input type="checkbox" name="Boissons" checked>
+                                </div>
+                                <label for="Boissons">Flan</label>
+                            </div>
+                            <p class="list-derou">
+                                <label for="Flan"></label>
+                                <select name="coca" id="Flan">
+                                    <option value="Flan">1</option>
+                                    <option value="Flan">2</option>
+                                    <option value="Flan">3</option>
+                                </select>
+                            </p>
+                        </div>
+                        <div class="c-a-c">
+                            <div class="container-a">
+                                <div class="container-b-c">
+                                    <input type="checkbox" name="Boissons">
+                                </div>
+                                <label for="Boissons">Tarte</label>
+                            </div>
+                            <p class="list-derou">
+                                <label for="tarte"></label>
+                                <select name="tarte" id="tarte">
+                                    <option value="tarte">1</option>
+                                    <option value="tarte">2</option>
+                                    <option value="tarte">3</option>
+                                </select>
+                            </p>
+                        </div>
+                        <div class="c-a-c">
+                            <div class="container-a">
+                                <div class="container-b-c">
+                                    <input type="checkbox" name="Boissons">
+                                </div>
+                                <label for="Boissons">Crêpe</label>
+                            </div>
+                            <p class="list-derou">
+                                <label for="crepe"></label>
+                                <select name="sprite" id="crepe">
+                                    <option value="crepe">1</option>
+                                    <option value="crepe">2</option>
+                                    <option value="crepe">3</option>
+                                </select>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <section class="">
+                    <h2 class="title-form">ADRESSE DE LIVRAISON</h2>
+                    <fieldset class="container-form-cat">
+                        <div class="form-cat-f">
+                            <div>
+                                <label for="nom">Nom :</label>
+                                <div>
+                                    <input type="text" name="nom" id="nom" placeholder="Votre nom" autofocus required>
+                                </div>
+                            </div>
+                            <div>
+                                <label for="tel">Téléphone :</label>
+                                <div>
+                                    <input type="number" name="Tel" id="tel" placeholder="Votre numéro de Téléphone"
+                                        autofocus required>
+                                </div>
+                            </div>
+                            <div>
+                                <label for="adress">Adresse :</label>
+                                <div>
+                                    <input type="text" name="adress" id="adress" placeholder="Votre adress" autofocus
+                                        required>
+                                </div>
+                            </div>
+                            <div>
+                                <label for="city"> Ville :</label>
+                                <div>
+                                    <input type="ville" name="city" id="tel" placeholder="Votre ville" autofocus required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-cat-f">
+                            <div>
+                                <label for="surname">Prénom :</label>
+                                <div>
+                                    <input type="text" name="surname" id="surname" placeholder="Votre prénom" autofocus
+                                        required>
+                                </div>
+                            </div>
+                            <div>
+                                <label for="mail">Email :</label>
+                                <div>
+                                    <input type="email" name="mail" id="mail" placeholder="Votre email" autofocus required>
+                                </div>
+                            </div>
+                            <div>
+                                <label for="mail">Code postale :</label>
+                                <div>
+                                    <input type="number" name="number" id="number" placeholder="Votre code postale"
+                                        autofocus required>
+                                </div>
+                            </div>
+                            <div>
+                                <label for="mail">Pays :</label>
+                                <div>
+                                    <input type="text" name="country" id="country" placeholder="Votre pays" autofocus
+                                        required>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="button">
+                        <button class="contain-button">Envoyer</button>
+                    </div>
+                </section>
+        </form>
+    </section>
+</body>
+</html>
